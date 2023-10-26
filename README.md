@@ -20,6 +20,8 @@ The checking of the version could be done with modules, as in, a module for chec
 
 The modules should be as easy as possible, so that they can be just copy pasted in the system and work, so that one can make its own module (useful?)
 
+A central database, that connects stuff like a docker image with multiple dependancies, like python libraries used. A user can create its own dependancies and add them to a docker image. And other applications can connect to its server to get the docker version and its dependacines. (should it be a separate service, that holds the dependancies? That you decide who can connect to it to fetch the dependancioes of docker images etc?)
+
 ### To-do
 - modular design for version tracking
 - implement [osquerry](https://www.osquery.io/) to get up-to-date data from servers
